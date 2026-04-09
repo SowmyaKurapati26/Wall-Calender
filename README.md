@@ -62,3 +62,67 @@ Inspired by a physical wall calendar layout, this project combines a hero image,
 ```bash
 npm install
 npm run dev
+````
+
+Visit: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── CalendarContainer.tsx   # main wrapper and state management
+│   ├── CalendarHeader.tsx      # month navigation and header
+│   ├── CalendarGrid.tsx        # calendar layout
+│   ├── DayCell.tsx             # individual date cell
+│   ├── NotesPanel.tsx          # notes functionality
+│   └── ThemeToggle.tsx         # dark mode toggle
+├── hooks/
+│   └── useLocalStorage.ts
+├── types/
+│   └── calendar.ts
+└── utils/
+    ├── calendarHelpers.ts
+    └── colorExtractor.ts
+```
+
+---
+
+## 🧠 Design Decisions
+
+* **Dynamic Color Extraction**
+  The accent color is derived from the hero image using canvas-based sampling, allowing the UI to adapt automatically.
+
+* **Improved Range Selection UX**
+  Selected dates are visually connected, making the range easy to understand.
+
+* **Lightweight Data Handling**
+  Notes are stored in localStorage to avoid backend complexity.
+
+* **Modular Architecture**
+  Components are structured for clarity, reusability, and maintainability.
+
+---
+
+## 🔮 Future Improvements
+
+* Drag-to-select date ranges
+* Multiple hero images (carousel support)
+* Export notes as calendar events (.ics)
+* Multi-month or yearly view
+
+---
+
+## 📄 License
+
+This project is created for learning and demonstration purposes.
+
+```
+
+---
