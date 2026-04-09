@@ -119,10 +119,4 @@ src/
 
 ---
 
-## 📄 License
 
-This project is created for learning and demonstration purposes.
-
-```
-
----
