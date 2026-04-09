@@ -9,7 +9,6 @@ Inspired by a physical wall calendar layout, this project combines a hero image,
 
 - 🌐 **Live Demo**: https://wall-calender-lac.vercel.app/  
 - 💻 **GitHub Repository**: https://github.com/SowmyaKurapati26/Wall-Calender  
-- 🎥 **Demo Video**: https://drive.google.com/your-video-link-here  
 
 ---
 
